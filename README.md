@@ -9,6 +9,10 @@ Steps to run this project:
 4. Run `npm start` command
 
 # Build Docker Image
-1. docker build --tag `name`
+1. docker build --tag `name` .
 2. docker run --net=host --detach `name`
+
+if something goes wrong check the logs:
+docker logs -f CONTAINER
+
 
